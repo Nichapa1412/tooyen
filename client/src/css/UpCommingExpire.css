@@ -1,0 +1,83 @@
+/* Description : This is for decoration part of UpComingExpire.js */
+
+.UpComingExpire {
+  width: 822px;
+  height: 290px;
+  background-color: #ffefa4;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 730px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.UpComingExpirationDateText {
+  color: #000000;
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.DateItemCard {
+  width: 170px;
+  height: 170px;
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  left: 42px;
+  top: 90px;
+}
+
+.AllUpComingExpireItem {
+  margin-left: 42px;
+  margin-top: 90px;
+}
+
+.Today {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 20px;
+  color: #d8613e;
+  margin-top: 16px;
+}
+
+.Tomorrow {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 20px;
+  color: #9f513a;
+  margin-top: 16px;
+}
+
+.Day {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.CategoryIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.ItemName1 {
+  display: flex; /* Use flexbox to make text and icon align in a row */
+  align-items: center; /* Vertically center the text with the icon */
+  font-family: "SF UI Display-Light", Helvetica;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.IconAndItemName1 {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Create a two-column grid to align icon and text */
+  grid-gap: 5px; /* Add some space between icon and text */
+  margin-left: 35px;
+  margin-top: 5px;
+}

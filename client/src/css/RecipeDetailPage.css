@@ -1,0 +1,517 @@
+.centered-container-an {
+  position: relative;
+  width: 960px;
+  height: 1440px;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  border: 1px solid Black;
+}
+
+.square-background-an1 {
+  width: 60rem;
+  height: 1246px;
+  background-color: #ffffff;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 75px;
+  position: absolute;
+  top: 12rem;
+}
+
+.Header-an {
+  text-align: left;
+  vertical-align: top;
+  position: absolute;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 8rem;
+  top: 80px; /* Please replace with an appropriate value in standard units */
+  max-width: 100%; /* Adjust as needed */
+}
+
+.square-navigation-bar-an {
+  position: fixed;
+  width: 60rem;
+  height: 12rem;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.Container-an {
+  background-color: #fdf78580;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 50px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scrollable-container-an {
+  max-height: 780px; /* Set the maximum height for the container */
+  max-width: 960px; /* Set the maximum width for the container */
+  overflow-y: scroll; /* Enable vertical scrolling when the content exceeds the container's height */
+  overflow-x: hidden;
+  margin-top: 150px;
+  margin-left: 69px;
+}
+
+.BackIcon-an {
+  padding: 20px;
+}
+
+.sub-header-an {
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 340px;
+  top: 70px; /* Please replace with an appropriate value in standard units */
+  max-width: 100%; /* Adjust as needed */
+}
+
+.formcontainer-an {
+  margin-top: 150px;
+  width: 60rem;
+  height: 20rem;
+}
+
+.back-button-an {
+  position: absolute;
+  top: 4.6rem;
+  left: 4rem;
+}
+
+.cancel-button-an {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 30rem;
+  left: 7rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.confirm-button-an {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 30rem;
+  left: 20rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.box-an {
+  width: 30rem;
+  height: 4rem;
+  background-color: #5d5555;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fae495;
+}
+
+.WhiteBox-an {
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  border-radius: 25px;
+  left: 60%;
+  top: 225px;
+}
+
+.GroupBtnAndTemp-an {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 10px;
+  width: 250px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ingredient-text-an {
+  width: 30rem;
+  height: 4rem;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.scrollable-container-an {
+  max-height: 780px; /* Set the maximum height for the container */
+  max-width: 960px; /* Set the maximum width for the container */
+  overflow-y: scroll; /* Enable vertical scrolling when the content exceeds the container's height */
+  overflow-x: hidden;
+  /* margin-top: 150px; */
+  margin-left: 69px;
+}
+
+/* tungtung */
+
+/*Search Bar*/
+.RecipeSearchBarContainer {
+  background-color: #ffefa4;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 50px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.RecipeSearchBarContainer:hover {
+  background-color: #e9da94;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 50px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SearchInput {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 713px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+.RecipeSearchIcon {
+  left: 30px;
+  position: absolute;
+  top: 15px;
+}
+/* Searchbar */
+
+.RecipeWhitebox {
+  width: 800px;
+  height: 680px;
+  background-color: #ffffff;
+  margin-left: 80px;
+  margin-top: 160px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RecipeMenuName {
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 50px;
+}
+
+.RecipeReadyToCook {
+  width: 190px;
+  height: 40px;
+  background-color: #24bd2a;
+  position: absolute;
+  color: white;
+  left: 670px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.RecipeLackToCook {
+  width: 190px;
+  height: 40px;
+  background-color: #c30010;
+  color: #ffffff !important;
+  position: absolute;
+  left: 670px;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.ReadyToCookText {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 7px;
+}
+
+.RecipeIngredientInFridgeText {
+  font-size: 28px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: left;
+  margin-block-start: 20px;
+  margin-inline-start: 70px;
+  margin-block-end: 20px;
+  position: absolute;
+  left: 380px;
+  top: 270px;
+}
+
+.RecipeStepText {
+  width: 300px;
+  margin-left: 70px;
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: left;
+
+  margin-inline-start: 70px;
+  margin-block-start: 10px;
+}
+
+.RecipeServing {
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 20px;
+}
+
+.RecipeGroupBtnAndTemp {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 10px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.RecipeButtonText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 20px;
+  margin-top: 8px;
+  padding-left: 0px;
+  position: relative;
+}
+
+.RecipeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ddd;
+  margin-bottom: 10px; /* Adjust this margin to move the button up */
+  cursor: pointer;
+  position: relative;
+}
+
+.RecipeButton:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #bfbfbf;
+  margin-bottom: 10px; /* Adjust this margin to move the button up */
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+.RecipeNoServingText {
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  margin-block-start: 12px;
+  position: relative;
+}
+
+.RecipeConfirmBtn {
+  width: 150px;
+  height: 50px;
+  background-color: #bbf4a7;
+  border-radius: 20px;
+  margin-left: 325px;
+}
+
+.RecipeConfirmText {
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  margin-block-start: 9px;
+  text-align: center;
+}
+
+.complete-added-popup-content-rs {
+  position: fixed;
+  width: 770px;
+  height: 500px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #8dcd8d;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.centered-lottie-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.complete-added-popup-title-rs {
+  position: absolute;
+  font-size: 40px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -7rem;
+  margin-left: 4rem;
+}
+
+.cooking-rs {
+  position: absolute;
+  margin-top: -4rem;
+  margin-left: 2.5rem;
+}
+
+.done-added-button-rs {
+  position: absolute;
+  position: fixed;
+  width: 150px;
+  top: 26rem;
+  left: 20rem;
+  border-radius: 20px !important;
+  color: #ffffff;
+}
+
+.RecipeMenuPicture {
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 27px;
+  /* background-color: #ddd; */
+  margin-left: 50px;
+  margin-block-end: 10px;
+}
+
+.image-recipe-detail {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 130px;
+  height: 18%;
+  border-radius: 20px;
+  border: 0.0625rem solid #a6a6a6;
+  transform: translate(-50%, -50%);
+}
+
+.CookBtn {
+  width: 100px;
+  height: 70px;
+  background-color: #8dcd8d;
+}
+
+.RecipeDoneBtn {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 325px;
+  margin-top: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.RecipeDoneBtn:hover {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 325px;
+  margin-top: 400px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.RecipeDoneText {
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 15px;
+
+  color: black;
+}
+
+.ConfirmBtn-rs:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 405px;
+  top: 750px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ConfirmBtn-rs.disable:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 20px;
+  left: 405px;
+  top: 750px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ConfirmBtn-rs {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 405px;
+  top: 750px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.ConfirmBtn-rs.disable {
+  width: 150px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 20px;
+  left: 405px;
+  top: 750px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.ConfirmText-rs {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-block-start: 15px;
+}
+
+.Recipe-icon-rb {
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  left: 36rem;
+  top: 60px;
+  transform: rotate(10deg);
+}

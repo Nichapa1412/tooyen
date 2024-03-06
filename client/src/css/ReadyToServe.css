@@ -1,0 +1,57 @@
+/* Description : This is for decoration part of ReadyToServe.js */
+
+.ReadyToServe {
+  width: 500px;
+  height: 224px;
+  background-color: #ffefa4;
+  border-radius: 30px;
+  position: absolute;
+  left: 392px;
+  top: 918px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ReadyToServeText {
+  color: #000000;
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 32px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+}
+
+.MenuWhiteBox {
+  width: 430px;
+  height: 130px;
+  /* background-color: white; */
+  margin-top: 70px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MenuDetail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+
+.MenuName {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-block-start: 0px;
+}
+
+.MenuDescription {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.TestLink {
+  text-decoration: none;
+  color: inherit;
+}

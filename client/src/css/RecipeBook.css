@@ -1,0 +1,189 @@
+.centered-container {
+  position: relative;
+  width: 960px;
+  height: 1440px;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  border: 1px solid Black;
+}
+
+.square-background-r {
+  width: 60rem;
+  height: 70rem;
+  background-color: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: 12rem;
+}
+
+.square-navigation-bar-r {
+  position: fixed;
+  width: 60rem;
+  height: 12rem;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.banner {
+  background-color: #e0dbdb;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  width: 370px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.SearchInput-r {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 713px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+.SearchIcon-r {
+  left: 30px;
+  position: absolute;
+  top: 15px;
+}
+
+.PlusIcon-r {
+  left: 260px;
+  position: absolute;
+  top: -50px;
+}
+
+.Container-r {
+  background-color: #fdf78580;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 50px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scrollable-container-r {
+  max-height: 880px;
+  max-width: 960px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 150px;
+  margin-left: 69px;
+}
+
+.popupTexTtitle-r {
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.Header-r {
+  text-align: left;
+  vertical-align: top;
+  position: absolute;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 5rem;
+  top: 80px;
+  max-width: 100%;
+}
+
+.status-recipe-lack {
+  height: 2rem;
+  width: 12rem;
+  position: absolute;
+  font-weight: Black;
+  top: 21rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff !important;
+  background-color: #c30010 !important;
+}
+
+.ReadyToCookText-r {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 7px;
+}
+
+.RecipeReadyToCook-r {
+  width: 190px;
+  height: 40px;
+  background-color: #bbf4a7;
+  position: absolute;
+  top: 21rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.status-recipe-ready {
+  height: 2rem;
+  width: 12rem;
+  position: absolute;
+  font-weight: Black;
+  top: 21rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000 !important;
+  background-color: #bbf4a7 !important;
+}
+
+.square-list-rb {
+  color: rgb(31, 19, 1);
+  position: relative;
+  width: 24rem;
+  height: 24rem;
+  left: 17rem;
+  top: 13.5rem;
+  transform: translate(-50%, -50%);
+  border-radius: 1.25rem;
+  padding: 0.5rem;
+  box-shadow: 0px 0.3125rem 0.625rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.item-text-found-rb {
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  font-family: "SF UI Display-Black", Helvetica;
+  font-weight: bold;
+  line-height: 1.5;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-recipe-book {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  height: 70%;
+  width: 70%;
+  border-radius: 20px;
+  border: 0.0625rem solid #a6a6a6;
+  transform: translate(-50%, -50%);
+}
+
+.RecipeBook1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 400px;
+  margin-top: 50px;
+  transform: rotate(10deg);
+}

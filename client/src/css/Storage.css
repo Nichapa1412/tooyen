@@ -1,0 +1,219 @@
+/* Description : This is for decoration part of Homepage storage.js */
+.HomepageSize {
+  background-color: transparent;
+  height: 1440px;
+  width: 960px;
+}
+.Storage {
+  width: 822px;
+  height: 290px;
+  background-color: #ffefa4;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 400px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.TextStorage {
+  color: #000000;
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+}
+
+.HomepageBackBtn {
+  margin-top: 29px;
+  margin-left: 750px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.CategoryButton {
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: none;
+}
+
+.CategoryButton:hover {
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: #d8d8d8;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.CategoryButton.active {
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.AllCategoryButton {
+  margin-left: 42px;
+  margin-top: 90px;
+}
+
+.AllItem {
+  width: 738px;
+  height: 140px;
+  /* margin-left: 42px; */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.ItemBlockwNo {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+}
+
+.ItemBlock {
+  width: 130px;
+  height: 130px;
+  background: #ffffff;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemBlock:hover {
+  width: 130px;
+  height: 130px;
+  background: #d8d8d8;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.ItemImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.ImageContainer {
+  max-width: 60%;
+  max-height: 70%;
+  width: 110px;
+}
+
+.ItemName {
+  font-family: "SF UI Display-Light", Helvetica;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 80%; /* Adjust the top value to create space between ItemImage and ItemName */
+}
+
+.NoItemLeft {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 25px;
+  color: white; /* Set text color to white */
+  text-align: center;
+  margin-block-start: 5px;
+}
+
+.RedNoti {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Make it a circle */
+  background: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.NoItem {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  color: rgb(111, 113, 115);
+  margin-top: 50px;
+  text-align: center;
+  width: 738px;
+}
+
+.SuccessPopup {
+  position: absolute;
+  width: 700px;
+  height: 350px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #8dcd8d;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.CheckIcon {
+  margin-left: 300px;
+  margin-top: 3rem;
+}
+
+.SuccessfullyTakeOutText {
+  margin-top: 2rem;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  color: #ffffff;
+  margin-block-end: 20px;
+}
+
+.DoneBtn {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 288px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.DoneBtn:hover {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 288px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.DoneText {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  text-align: center;
+  margin-block-start: 15px;
+}

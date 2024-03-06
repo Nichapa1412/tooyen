@@ -1,0 +1,1599 @@
+/* Description : This is for decoration part of AddToFridge page (the page after clicked plus icon on SearchItem.js) */
+
+.AddToFridgePage {
+  display: flex;
+  justifycontent: center;
+  alignitems: center;
+  minheight: 100vh;
+}
+
+.AtfPageBorder {
+  position: absolute;
+  width: 960px;
+  height: 1440px;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  border: 1px solid Black;
+}
+
+.AtfBackBtn {
+  position: relative;
+  top: 4.3rem;
+  left: 5rem;
+}
+
+/* SearchBar */
+.AtfContainer-add {
+  background-color: #fdf78580;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 235px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.AtfSearchInput-add {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 713px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  outline: none;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.AtfSearchInput:focus {
+  outline: none;
+}
+
+.AtfSearchIcon-add {
+  left: 30px;
+  position: absolute;
+  top: 15px;
+}
+/* SearchBar */
+
+.AtfWhiteBox {
+  width: 60rem;
+  height: 77.8rem;
+  background-color: #ffffff;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 75px;
+  position: absolute;
+  top: 12rem;
+}
+
+.AtfHeader-add {
+  text-align: left;
+  vertical-align: top;
+  position: absolute;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 9rem;
+  top: 80px; /* Please replace with an appropriate value in standard units */
+  max-width: 100%; /* Adjust as needed */
+}
+
+.AtfAddToFridgeIcon {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  left: 31rem;
+  top: 45px;
+}
+
+.Atffilter-button-icon-add {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 14.8rem;
+  left: 46rem;
+  cursor: pointer;
+}
+
+.Atfcircle-no-item-found-add {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 400px;
+  border: 0.1px solid rgba(0, 0, 0, 0.273);
+  top: 27rem;
+  left: 9.5rem;
+}
+
+.Atfno-suggested-item-pic-add {
+  position: absolute;
+  width: 31rem;
+  height: 23rem;
+  top: 8rem;
+  left: 4rem;
+}
+
+.Atfno-suggested-item-add {
+  position: absolute;
+  position: fixed;
+  left: 16rem;
+  top: 70rem;
+  color: "grey";
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.Atfitem-found-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Regular", Helvetica;
+  font-weight: Thin;
+  top: 21rem;
+  left: 7rem;
+}
+
+.Atfnew-item-icon-add {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  justify-content: center;
+  left: 50rem;
+  top: 16rem;
+  color: #ffe86e;
+}
+
+.Atfscrollable-container-add {
+  max-height: 820px; /* Set the maximum height for the container */
+  max-width: 960px; /* Set the maximum width for the container */
+  overflow-y: scroll; /* Enable vertical scrolling when the content exceeds the container's height */
+  overflow-x: hidden;
+  margin-top: 260px;
+}
+
+.Atfout-of-stock-button-add {
+  height: 2rem;
+  width: 9rem;
+  position: absolute;
+  font-weight: Black;
+  left: 1rem;
+  top: 0.5rem;
+  color: #ffffff !important;
+  /*background-color: #d9d9d939 !important;*/
+  background-color: #c30010 !important;
+}
+
+.Atfitem-text-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Black", Helvetica;
+  font-weight: Bold;
+  width: 400px;
+  text-align: center;
+  top: 2.5rem;
+}
+
+.AtfList-pic-add {
+  position: absolute;
+  width: 250px;
+  height: 175px;
+  left: 4.5rem;
+  top: 6.5rem;
+}
+
+.Atfshopping-basket-add {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 13rem;
+  top: 21rem;
+  height: 35px;
+  width: 35px;
+  color: #000000;
+}
+
+.Atfcategory-add {
+  width: 15rem !important;
+  height: 2rem;
+  position: absolute;
+  font-weight: Black;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  left: 5rem !important;
+  top: 16.5rem;
+}
+
+.Atflast-shopping-add {
+  width: 15rem !important;
+  height: 2rem;
+  position: absolute;
+  font-weight: Black;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  left: 5rem !important;
+  top: 17rem;
+}
+
+.Atfcircle-no-item-found-add {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 400px;
+  border: 0.1px solid rgba(0, 0, 0, 0.273);
+  top: 27rem;
+  left: 9.5rem;
+}
+
+.Atfno-item-found-pic-add {
+  position: absolute;
+  width: 30rem;
+  height: 27rem;
+  top: 6.55rem;
+  left: 5rem;
+}
+
+.Atfsquare-add-new-item-add {
+  position: absolute;
+  width: 23rem;
+  height: 4rem;
+  top: 70rem;
+  left: 18.5rem;
+  background-color: #fff200;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Atfadd-new-item-text-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+  top: 1.1rem;
+  left: 5.7rem;
+}
+
+.Atfadd-circle-icon-add {
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+}
+
+.Atfscrollable-container-found-add {
+  max-height: 820px;
+  max-width: 960px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 330px;
+}
+
+.Atfsquare-list-add {
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 24rem;
+  position: relative;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 17rem;
+  transform: translate(-50%, -50%);
+  top: 13.5rem;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.Atfitem-text-found-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Black", Helvetica;
+  font-weight: Bold;
+  left: 50%;
+  top: 1rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.AtfList-pic-found-add {
+  position: absolute;
+  width: 250px;
+  height: 175px;
+  left: 4.5rem;
+  top: 5.5rem;
+}
+
+.Atfcategory-found-add {
+  width: 15rem !important;
+  height: 2rem;
+  position: absolute;
+  font-weight: Black;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  left: 5rem !important;
+  top: 17.5rem !important;
+}
+
+.Atflast-shopping-found-add {
+  width: 15rem !important;
+  height: 2rem;
+  position: absolute;
+  font-weight: Black;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  left: 5rem !important;
+  top: 18rem;
+}
+
+.Atfshopping-basket-found-add {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 7rem;
+  top: 19rem;
+  height: 35px;
+  width: 35px;
+  color: #000000;
+}
+
+/* AddItemModal */
+.Atfpopup-content-add {
+  position: fixed;
+  width: 700px;
+  height: 720px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f0f0;
+  border-radius: 20px !important;
+}
+
+.Atfpopup-title-add {
+  margin-block-start: 60px;
+  margin-block-end: 0px;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Atfpopup-description-add {
+  margin-top: 0rem;
+  font-size: 40px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+  text-align: center;
+}
+
+.Atfpopup-pic-add {
+  position: absolute;
+  width: 400px;
+  height: 280px;
+  left: 10rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Atfsquare-quantity-add {
+  display: flex;
+  position: absolute;
+  left: 16rem;
+  top: 32rem;
+  width: 200px;
+  height: 70px;
+  background-color: #d9d9d95d;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Atfcount-display-add {
+  display: flex;
+  font-size: 30px;
+  position: absolute;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Atfdecrement-button-add {
+  font-size: 40px;
+  position: absrolute;
+  position: fixed;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  left: -1.5rem;
+  top: 0rem;
+  border: 2px solid Black;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px !important;
+}
+
+.Atfincrement-button-add {
+  font-size: 30px;
+  position: absolute;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  left: 1.5rem;
+  top: 0rem;
+  border: 2px solid Black;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px !important;
+  position: fixed;
+}
+
+.AtfCancelBtn-add-to-shop-add {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  left: 180px;
+  top: 635px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.AtfCancelBtn-add-to-shop-add:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+  left: 180px;
+  top: 635px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.AtfCancelText-add,
+.AtfConfirmText-add {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-block-start: 15px;
+}
+
+.AtfTakeOutBtn-add-to-shop-add {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 390px;
+  top: 635px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.AtfTakeOutBtn-add-to-shop-add:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 390px;
+  top: 635px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.AtfQuantity-text-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  width: 700px;
+  text-align: center;
+  top: 4.5rem;
+}
+
+/* FilterSearch */
+.Atffilter-search-content-add {
+  position: fixed;
+  width: 600px;
+  height: 580px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f0f0;
+  border-radius: 20px !important;
+}
+
+.Atffilter-search-title-add {
+  margin-top: 3.5rem;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* NATTY FROMTT POPUP */
+.add-new-item-content-add {
+  position: fixed;
+  width: 700px;
+  height: 780px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f0f0;
+  border-radius: 20px !important;
+}
+
+.add-new-item-title-add {
+  margin-top: 4rem;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-new-item-name-add {
+  position: absolute;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+  left: 7rem;
+  top: 9rem;
+}
+
+.box1-add {
+  position: absolute;
+  position: fixed;
+  width: 30rem;
+  height: 4rem;
+  background-color: #5d5555;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fae495;
+  top: 11rem;
+  left: 7rem;
+}
+
+.add-new-item-duration-add {
+  position: absolute;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+  left: 7rem;
+  top: 25rem;
+}
+
+.add-new-item-category-add {
+  position: absolute;
+  font-size: 20px;
+  font-family: "SF UI Display", Helvetica;
+  font-weight: Regular;
+  left: 7rem;
+  top: 17rem;
+}
+
+.box2-add {
+  position: absolute;
+  position: fixed;
+  width: 30rem;
+  height: 4rem;
+  background-color: #5d5555;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fae495;
+  top: 19rem;
+  left: 7rem;
+}
+
+.box3-add {
+  position: absolute;
+  position: fixed;
+  width: 30rem;
+  height: 4rem;
+  background-color: #5d5555;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fae495;
+  top: 27rem;
+  left: 7rem;
+}
+
+.add-new-cancel-button-add {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 4rem;
+  left: 6rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.add-new-confirm-button-add {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 4rem;
+  left: 8rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.new-name-text-add {
+  position: absolute;
+  width: 25rem;
+  top: 0rem;
+  left: 1rem;
+}
+
+.new-duration-text-add {
+  position: absolute;
+  width: 22rem;
+  top: 0rem;
+  left: 1rem;
+}
+
+.days-add {
+  position: absolute;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+  left: 25rem;
+  top: 2rem;
+}
+
+.new-category-add {
+  position: absolute;
+  width: 25rem;
+  top: 0rem;
+  left: 1rem;
+}
+
+.new-item-name-square-add {
+  position: absolute;
+  position: fixed;
+  width: 10rem;
+  height: 1.5rem;
+  background-color: #8b878742;
+  margin-top: 0rem;
+  border-radius: 20px;
+  left: 8rem;
+}
+
+.new-item-category-square-add {
+  position: absolute;
+  position: fixed;
+  width: 10rem;
+  height: 1.5rem;
+  background-color: #000000;
+  margin-top: 0rem;
+  border-radius: 20px;
+  left: 8rem;
+}
+
+.SearchInput-name-add {
+  width: 10rem;
+  background-color: transparent;
+  width: 713px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.square-add-list-add {
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 24rem;
+  position: relative;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 18rem;
+  transform: translate(-50%, -50%);
+  top: 40rem;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.new-item-icon-found-add {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  justify-content: center;
+  left: 5.25rem;
+  top: 3.25rem;
+  color: #ffe86e;
+}
+
+.last-shopping-item-date-add {
+  position: absolute;
+  top: 22rem;
+  left: 7rem;
+}
+
+.filter-icon-add {
+  position: absolute;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 16rem;
+  left: 50.75rem;
+  cursor: pointer;
+}
+
+.filter-search-content-add {
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f0f0;
+  border-radius: 20px !important;
+}
+
+.filter-search-title-add {
+  margin-top: 3.5rem;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+}
+
+.category-text-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+  left: 6rem;
+  top: 10rem;
+}
+
+.square-selected-filter-search-add {
+  position: absolute;
+  position: fixed;
+  width: 22rem;
+  height: 4rem;
+  background-color: #fae495;
+  left: 17rem;
+  top: 9rem;
+  border-radius: 20px;
+}
+
+.square-all-category-add {
+  position: absolute;
+  position: fixed;
+  width: 33rem;
+  height: 25rem;
+  background-color: #d9d9d9;
+  left: 5rem;
+  top: 15rem;
+  border-radius: 20px;
+}
+
+.scrollable-category-add {
+  position: absolute;
+  position: fixed;
+  max-width: 33rem;
+  max-height: 25rem;
+  background-color: #000000;
+  left: 5rem;
+  top: 15rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.square-each-category {
+  position: absolute;
+  position: fixed;
+  width: 22rem;
+  height: 3rem;
+  background-color: #5d5555;
+  left: 16rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+}
+
+.listed-category-add {
+  position: absolute;
+  position: fixed;
+  font-size: 25px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+  left: 0rem !important;
+  margin-top: 1 rem;
+}
+
+.filter-category-add {
+  position: absolute;
+  position: fixed;
+  top: 1rem;
+  left: 18rem;
+  width: 300px;
+}
+
+.filter-cancel-button-add {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 4rem;
+  left: 3rem;
+  border-radius: 20px !important;
+}
+
+.filter-confirm-button-add {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 4rem;
+  left: 5rem;
+  border-radius: 20px !important;
+}
+
+.CategoryButton-add {
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: none;
+  width: 170px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CategoryButton-add:hover {
+  background: #d8d8d8;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: none;
+  width: 170px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.CategoryButton-add.active {
+  border-radius: 20px;
+  background-color: #fae495;
+  text-align: center;
+  cursor: pointer;
+}
+
+.CategoryButton-add:hover {
+  border-radius: 20px;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.AtfAllCategoryButton-add {
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-right: 80px;
+}
+
+.SearchItemCategoryImageContainer {
+  width: 80px;
+  height: 80px;
+}
+
+.SearchItemCategoryImageContainer1 {
+  width: 60px;
+  height: 80px;
+}
+/* .Fruits-add {
+    width: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .Vegetable-add {
+    width: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Protein-add {
+    width: 4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Dairy-add {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 4rem;
+  }
+  
+  .Drinks-add {
+    width: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .Grains-add {
+    width: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.75rem;
+  } */
+
+.SearchItemCancelBtn {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemCancelBtn:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SearchItemConfirmBtn {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemConfirmBtn:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SearchItemConfirmBtn.disable {
+  width: 150px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemCancelText,
+.SearchItemConfirmText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-block-start: 15px;
+}
+
+.new-item-name-add {
+  width: 10rem;
+  margin-left: 7rem;
+}
+
+.new-item-name-text-add {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.outline-new-item-category-add {
+  width: 30rem;
+  height: 20rem;
+  border: 0.1px solid rgba(0, 0, 0, 0.273);
+  border-radius: 20px;
+  margin-left: 7rem;
+  margin-top: 1rem;
+}
+
+.AllCategoryButton2-add {
+  margin-left: 20px;
+  margin-top: 13px;
+  margin-right: 20px;
+}
+
+.AtfAllCategoryButton2-add {
+  margin-left: 80px;
+  margin-top: 13px;
+  margin-right: 80px;
+}
+
+.new-item-category-text-add {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.new-item-duration-text-add {
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.new-item-duration-add {
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.add-new-item-text {
+  position: absolute;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  top: 20.5rem;
+  left: 7rem;
+}
+
+.circle-no-item-found-add {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 400px;
+  border: 0.1px solid rgba(0, 0, 0, 0.273);
+  top: 27rem;
+  left: 9.5rem;
+}
+
+.add-new-item-text-add {
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+  top: 1.1rem;
+  left: 5.7rem;
+}
+
+.square-add-new-item-add {
+  position: absolute;
+  width: 23rem;
+  height: 4rem;
+  top: 70rem;
+  left: 18.5rem;
+  background-color: #fff200;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.square-add-new-item-add:hover {
+  position: absolute;
+  width: 23rem;
+  height: 4rem;
+  top: 70rem;
+  left: 18.5rem;
+  background-color: #fff200;
+  border-radius: 20px;
+  background: #fae495;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.add-circle-icon-add {
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+}
+
+.no-item-found-pic {
+  position: absolute;
+  width: 30rem;
+  height: 27rem;
+  top: 6.55rem;
+  left: 5rem;
+}
+
+.complete-added-popup-content-add {
+  position: fixed;
+  width: 700px;
+  height: 350px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #8dcd8d;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sucessfully-added-icon-add {
+  margin-left: 300px;
+  margin-top: 3rem;
+}
+
+.done-added-button-add {
+  position: absolute;
+  position: fixed;
+  width: 150px;
+  top: 0.5rem;
+  left: 32rem;
+  border-radius: 20px !important;
+  color: #ffffff;
+}
+
+.complete-added-popup-title-add {
+  margin-top: 2rem;
+  font-size: 35px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+/* Natty */
+/* Natty Fridge Popup */
+.checkout-modal-content-atf {
+  position: fixed;
+  width: 700px;
+  height: 1000px;
+  top: 650px;
+  left: 490px;
+  transform: translate(-50%, -50%);
+  background-color: #f3f0f0;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-popup-title-atf {
+  margin-top: 6rem;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Bold;
+  text-align: center;
+}
+
+.checkout-back-button-atf {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-left: 10rem !important;
+}
+
+.checkout-forth-button-atf {
+  position: absolute;
+  margin-top: 0.5rem !important;
+  margin-left: 20rem !important;
+}
+
+.checkout-description-item-atf {
+  top: 6rem;
+  left: 20rem;
+  position: fixed;
+  font-size: 40px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.checkout-location-text-atf {
+  position: absolute;
+  top: 11rem;
+  left: 18.5rem;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Regular;
+}
+
+.fridgeBody-atf {
+  width: 65%;
+  margin-left: 135px;
+  top: 15.4rem;
+  position: absolute;
+}
+
+.Container1-atf {
+  width: 80px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  position: absolute;
+  top: 17rem;
+  left: 16.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container2-atf {
+  width: 110px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  /* top: 0px; Remove this line */
+  position: absolute; /* Added this line */
+  top: 17rem;
+  left: 22rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container3-atf {
+  width: 80px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  position: absolute;
+  top: 21.5rem;
+  left: 16.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container4-atf {
+  width: 110px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  /* top: 0px; Remove this line */
+  position: absolute; /* Added this line */
+  top: 21.5rem;
+  left: 22rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container5-atf {
+  width: 80px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  position: absolute;
+  top: 26rem;
+  left: 16.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container6-atf {
+  width: 110px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  /* top: 0px; Remove this line */
+  position: absolute; /* Added this line */
+  top: 26rem;
+  left: 22rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container7-atf {
+  width: 80px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  position: absolute;
+  top: 30.5rem;
+  left: 16.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container8-atf {
+  width: 110px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  /* top: 0px; Remove this line */
+  position: absolute; /* Added this line */
+  top: 30.5rem;
+  left: 22rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container9-atf {
+  width: 80px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  position: absolute;
+  top: 35rem;
+  left: 16.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Container10-atf {
+  width: 110px;
+  height: 60px;
+  background-color: #8ebbe5;
+  border-radius: 5px;
+  /* top: 0px; Remove this line */
+  position: absolute; /* Added this line */
+  top: 35rem;
+  left: 22rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hover-effect-atf:hover {
+  background-color: #5c7994;
+}
+
+.container-number {
+  width: 1.5rem;
+  height: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: fixed;
+  margin-top: 1.2rem;
+  margin-left: -0.75rem !important;
+  font-size: 15px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: thin;
+}
+
+.checkout-duration-text-atf {
+  position: absolute;
+  top: 44.5rem;
+  left: 12rem;
+  font-size: 22px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+}
+
+.checkout-duration-days-atf {
+  position: absolute;
+  top: 44.5rem;
+  left: 30rem;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+}
+
+.checkout-duration-atf {
+  position: absolute;
+  top: 33rem;
+  width: 2rem;
+  left: 22rem;
+}
+
+.square-checkout-quantity-atf {
+  display: flex;
+  position: absolute;
+  left: 16rem;
+  top: 48rem !important;
+  width: 200px;
+  height: 70px;
+  background-color: #d9d9d95d;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.count-display-atf {
+  display: flex;
+  font-size: 30px;
+  position: absolute;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.decrement-button-atf {
+  font-size: 40px;
+  position: absolute;
+  position: fixed;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  left: -1.5rem;
+  top: 0rem;
+  border: 2px solid Black;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px !important;
+}
+
+.increment-button-atf {
+  font-size: 30px;
+  position: absolute;
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-weight: Thin;
+  left: 1.5rem;
+  top: 0rem;
+  border: 2px solid Black;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px !important;
+  position: fixed;
+}
+
+.checkout-quantity-text-atf {
+  position: absolute;
+  top: 5rem;
+  left: 3.75rem;
+  font-size: 20px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: Thin;
+}
+
+.checkout-cancel-button-atf {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 42.5rem;
+  left: 6rem;
+  border-radius: 20px !important;
+}
+
+.checkout-confirm-button-atf {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 42.5rem;
+  left: 9rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+.SearchItemCancelBtn1 {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemCancelBtn1:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SearchItemConfirmBtn1 {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemConfirmBtn1.disable {
+  width: 150px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemConfirmBtn1.disable:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #ddd;
+  border-radius: 20px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.SearchItemConfirmBtn1:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SuccessBtn {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 270px;
+  top: 256px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SuccessBtn:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 270px;
+  top: 256px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* Natty Fridge Popup */
+
+.AtfCancelBtn-category-add {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  left: 140px;
+  top: 480px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.AtfCancelBtn-category-add:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+  left: 140px;
+  top: 480px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.AtfTakeOutBtn-category-add {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 330px;
+  top: 480px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.AtfTakeOutBtn-category-add:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 330px;
+  top: 480px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}

@@ -1,0 +1,268 @@
+/* Description : This is for decoration part of Settings.js */
+
+.SettingsBG {
+  display: absolute;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  height: 1440px;
+}
+
+.SettingsText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 48px;
+  left: 140px;
+  top: 70px;
+  position: absolute;
+}
+
+.SettingsWhiteBG {
+  width: 960px;
+  height: 1245px;
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.SettingBox {
+  width: 790px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 85px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.SettingBox:hover {
+  width: 790px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 85px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.SettingDetail {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SettingDetail1 {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  margin-block-start: 40px;
+  margin-block-end: 5px;
+  color: black;
+}
+
+.SettingDetail2 {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 25px;
+  color: #b2b2b2;
+}
+
+.SettingOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 960px;
+  height: 1440px;
+  position: absolute; /* Change to relative */
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.SettingProfileWhiteBox {
+  width: 790px;
+  height: 470px;
+  background-color: white;
+  margin-top: 390px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SettingEmailWhiteBox {
+  width: 790px;
+  height: 510px;
+  background-color: white;
+  margin-top: 350px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SettingProfileText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 90px;
+  margin-block-end: 20px;
+}
+
+.SettingEmailText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 90px;
+  margin-block-end: 20px;
+  width: 300px;
+}
+
+.SettingNameText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.SettingInput {
+  background-color: #ddd;
+  border: none;
+  height: 80px;
+  width: 520px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.SettingInput.active {
+  background-color: #fae495;
+  border: none;
+  height: 80px;
+  width: 520px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.SettingEditBtn {
+  margin-left: 630px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.SaveBtn {
+  background-color: #24bd2a;
+  width: 150px;
+  height: 70px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  margin-left: 420px;
+}
+
+.SaveBtn.disable,
+SaveBtn.disable:hover {
+  background-color: #ddd;
+  width: 150px;
+  height: 70px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  margin-left: 420px;
+}
+
+.SaveBtn.disable:hover {
+  background-color: #ddd;
+  width: 150px;
+  height: 70px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  margin-left: 420px;
+}
+
+.SaveBtn:hover {
+  background-color: #177f1a;
+  width: 150px;
+  height: 70px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  margin-left: 420px;
+  transition: 0.3s;
+}
+
+.SaveText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+}
+
+.SettingCancelBtn {
+  width: 150px;
+  height: 70px;
+  background-color: #c00c00;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  position: absolute;
+  margin-left: 220px;
+}
+
+.SettingCancelBtn:hover {
+  width: 150px;
+  height: 70px;
+  background-color: #9b0f05;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  position: absolute;
+  margin-left: 220px;
+  transition: 0.3s;
+}
+
+.SettingCancelText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+}

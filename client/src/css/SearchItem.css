@@ -1,0 +1,379 @@
+/* Description : This is for decoration part of SearchItem.js */
+
+.InvBG {
+  display: absolute;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  height: 1440px;
+}
+
+.InventoryText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 48px;
+  left: 140px;
+  top: 70px;
+  position: absolute;
+}
+
+.InvAddBtn {
+  position: absolute;
+  top: 70px;
+  left: 780px;
+}
+
+.InvWhiteBG {
+  width: 960px;
+  height: 1245px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+/* Search */
+.SearchBarWrapper {
+  background-color: #ffe5a3;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  top: 235px;
+  width: 600px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SearchBarWrapper:hover {
+  background-color: #ebd293;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  top: 235px;
+  width: 600px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.SearchInput {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 713px;
+  margin-left: 110px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 30px;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+.SearchIcon {
+  left: 105px;
+  position: absolute;
+  top: 58px;
+}
+/* Search */
+
+.CategoryButton1 {
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: none;
+}
+
+.CategoryButton1:hover {
+  font-family: "SF UI Display-Thin", Helvetica;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  padding: 7px 10px;
+  text-align: center;
+  color: #000000;
+  background: none;
+  border-radius: 20px;
+  background-color: #f1d99b;
+  transition: 0.3s;
+}
+
+.CategoryButton1.active {
+  border-radius: 20px;
+  background-color: #ffe5a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.AllCategoryButton1 {
+  left: 100px;
+  top: 160px;
+  position: absolute;
+}
+
+.ItemBlock1 {
+  width: 300px;
+  height: 300px;
+  background: #f5d7d7;
+  border-radius: 30px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ItemBlock1Active {
+  width: 300px;
+  height: 300px;
+  background: #d9f8ce;
+  border-radius: 30px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.Card {
+  margin-top: 90px;
+  margin-left: 80px; /* Move the Card element 100px to the left */
+  display: block; /* You can omit this line, as block-level is the default display value for most elements */
+  overflow-y: scroll; /* Enable vertical scrolling when the content exceeds the container's height */
+  overflow-x: hidden;
+}
+
+.InvBox {
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.InvStatusLine {
+  width: 15px;
+  height: 200px;
+  background-color: #f96439;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.InvStatusLineActive {
+  width: 15px;
+  height: 200px;
+  background-color: #24bd2a;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.InvImage {
+  width: 170px;
+  height: 170px;
+  padding: 20px;
+}
+
+.InvName {
+  font-family: "SF UI Display", Helvetica;
+  font-size: 36px;
+  margin-block-start: 35px;
+  margin-inline-start: 10px;
+  margin-block-end: 0px;
+}
+
+.InvDetail {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 23px;
+  margin-inline-start: 15px;
+  margin-top: 5px;
+}
+
+.InvTime {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 23px;
+  text-align: right;
+  margin-top: 35px;
+  color: #f96439;
+  margin-inline-end: 30px;
+  width: 200px;
+}
+
+.InvTimeExp {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 23px;
+  text-align: right;
+  margin-top: 35px;
+  color: #a1a1a1;
+  margin-inline-end: 30px;
+  width: 200px;
+}
+
+.InvDetailWrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.NoItemCategory {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-inline-end: 80px;
+}
+
+.DisplayMode {
+  width: 200px;
+  height: 83px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.FridgeMode {
+  width: 95px;
+  height: 83px;
+}
+
+.FridgeMode:hover {
+  width: 95px;
+  height: 83px;
+  background-color: #dbc487;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.FridgeMode.active {
+  width: 95px;
+  height: 83px;
+  background-color: #ffe5a3;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ListMode {
+  margin-left: 5px;
+  width: 95px;
+  height: 83px;
+}
+
+.ListMode:hover {
+  margin-left: 5px;
+  width: 95px;
+  height: 83px;
+  background-color: #dbc487;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.ListMode.active {
+  margin-left: 5px;
+  width: 95px;
+  height: 83px;
+  background-color: #ffe5a3;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.InvFridgeBody {
+  width: 550px;
+  height: 800px;
+  margin-left: 205px;
+  margin-top: 110px;
+  position: absolute; /* Added this line */
+}
+
+.InvFridgeDoorL {
+  width: 200px;
+  height: 750px;
+  margin-left: 25px;
+  margin-top: 110px;
+  position: absolute; /* Added this line */
+}
+
+.InvFridgeDoorR {
+  width: 200px;
+  height: 750px;
+  margin-left: 737px;
+  margin-top: 110px;
+  position: absolute; /* Added this line */
+}
+
+.InvContainerFridge {
+  width: 550px;
+  position: absolute;
+  top: 255px;
+  left: 50px;
+  display: flex; /* Use flex display to arrange the children in a row */
+  flex-wrap: wrap; /* Wrap items to the next line if there's not enough space */
+}
+
+.InvContainer1 {
+  width: 200px;
+  height: 130px;
+  /* background-color: #8ebbe5; */
+  background-color: #f2ca64;
+  border-radius: 20px;
+  /* top: 0px; Remove this line */
+  position: relative; /* Added this line */
+  margin-top: 10px;
+  left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.InvContainer2 {
+  width: 250px;
+  height: 130px;
+  background-color: #f2ca64;
+  border-radius: 20px;
+  /* top: 0px; Remove this line */
+  position: relative; /* Added this line */
+  margin-top: 10px;
+  left: 206px;
+  display: flex;
+  flex-direction: row;
+}
+
+.WrapperContainerNo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ffe5a3;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.ContainerNoText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 25px;
+  margin-block-start: 17px;
+}
+
+.InvFName {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 20px;
+  top: 10px;
+  margin-top: 7px;
+}
+
+#hide {
+  display: none;
+}

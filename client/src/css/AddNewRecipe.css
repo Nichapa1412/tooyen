@@ -1,0 +1,172 @@
+.centered-container-an {
+  position: relative;
+  width: 960px;
+  height: 1440px;
+  background: linear-gradient(to right, #fff27ed6, #ffab038d);
+  border: 1px solid Black;
+}
+
+.square-background-an {
+  width: 60rem;
+  height: 70rem;
+  background-color: #ffffff;
+  border-radius: 75px;
+  position: absolute;
+  top: 12rem;
+}
+
+.Header-an {
+  text-align: left;
+  vertical-align: top;
+  position: absolute;
+  font-size: 48px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 8rem;
+  top: 80px;
+  max-width: 100%;
+}
+
+.square-navigation-bar-an {
+  position: fixed;
+  width: 60rem;
+  height: 12rem;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.Container-an {
+  background-color: #fdf78580;
+  border-radius: 20px;
+  height: 83px;
+  left: 69px;
+  position: absolute;
+  top: 50px;
+  width: 823px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scrollable-container-AddNew {
+  max-height: 900px;
+  max-width: 960px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  left: 10rem;
+}
+
+.BackIcon-an {
+  padding: 20px;
+}
+
+.sub-header-an {
+  text-align: center;
+  vertical-align: top;
+  position: absolute;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  left: 340px;
+  top: 70px;
+  max-width: 100%;
+}
+
+.formcontainer-an {
+  position: absolute;
+  width: 60rem;
+  height: 20rem;
+  top: -7rem;
+}
+
+.back-button-an {
+  position: absolute;
+  top: 4.6rem;
+  left: 4rem;
+}
+
+.cancel-button-an {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 30rem;
+  left: 7rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.confirm-button-an {
+  position: absolute;
+  position: fixed;
+  width: 240px;
+  top: 30rem;
+  left: 20rem;
+  border-radius: 20px !important;
+  background-color: #000000;
+}
+
+.box-an {
+  width: 30rem;
+  height: 4rem;
+  background-color: #5d5555;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fae495;
+}
+
+.ingredient-text-an {
+  width: 30rem;
+  height: 4rem;
+  font-size: 15px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.plusicon-an {
+  position: sticky;
+  width: 180px;
+  left: 30px;
+  border-radius: 20px !important;
+}
+
+.btngroup-an {
+  position: absolute;
+  top: 30rem;
+}
+
+.complete-added-popup-content-an {
+  position: fixed;
+  width: 700px;
+  height: 350px;
+  top: 650px;
+  left: 480px;
+  transform: translate(-50%, -50%);
+  background-color: #8dcd8d;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sucessfully-added-icon-an {
+  margin-left: 300px;
+  margin-top: 3rem;
+}
+
+.complete-added-popup-title-an {
+  margin-top: 2rem;
+  font-size: 30px;
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.done-added-button-an {
+  position: absolute;
+  position: fixed;
+  width: 150px;
+  top: 0.5rem;
+  left: 17rem;
+  border-radius: 20px !important;
+  color: #ffffff;
+}

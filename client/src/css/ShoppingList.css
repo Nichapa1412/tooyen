@@ -1,0 +1,1346 @@
+/* Natty modified at 9 December 2023 : I minimized the position of popup, also its width and height in .second-popup-content-sl and .complete-deleted-popup-content-sl */
+.pageStyle-sl  {
+    display: flex;
+    justifyContent: center;
+    alignItems: center;
+    minHeight: 100vh;
+}
+
+.containerStyle-sl {
+    position: absolute;
+    width: 960px;
+    height: 1440px;
+    background: linear-gradient(to right, #fff27ed6, #ffab038d);
+    border: 1px solid Black;
+}
+.Header-sl {
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+    left: 80px;
+    top: 80px; 
+    max-width: 100%; 
+  }
+
+.Last-shopping-date-sl {
+    align-items: center;
+    position: absolute;
+    font-weight: Black;
+    left: 40rem;
+    top: 8rem;
+    color:  #000000 !important;
+    background-color: #FFFFFF !important;
+    border-radius: 20px !important;
+}
+
+.no-item-text-sl {
+    position: absolute;
+    position: fixed;
+    left: 20rem;
+    top: 30rem;
+    color: 'grey';
+    font-size: 25px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+}
+
+.Shopping-cart-sl {
+    height: 64px; 
+    width: 64px;
+    background-color: FFF27E; 
+    position: absolute;
+    left: 27rem;
+    top: 70px;
+  }
+
+.square-background-sl {
+    width: 960px;
+    height: 1150px;
+    background-color: #FFFFFF; 
+    border-radius: 75px;
+    position: absolute; 
+    top: 12rem;
+}
+
+.square-navigation-bar-sl {
+    position: fixed;
+    width: 60rem; 
+    height: 12rem; 
+    background-color: #FFFFFF;
+    position: absolute; 
+    bottom: 0rem;
+}
+
+/*.square-searchbar {
+    width: 45rem; 
+    height: 5rem; 
+    background-color: #fdf78580; 
+    border-radius: 20px;
+    position:  absolute; 
+    top: 16.5rem;
+    left: 27rem;
+    transform: translate(-50%, -50%); 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}*/
+
+/*.Search-items {
+    position: relative;
+    font-size: 30px;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    top: 15.5rem;
+    left: 11rem;
+}*/
+
+.Add-icon-sl {
+    position: absolute;
+    top: 4rem;
+    left: 50rem;
+}
+
+.Item-found-sl {
+    position: absolute;
+    font-size: 30px;
+    font-family: "SF UI Display-Regular", Helvetica;
+    font-weight: Thin;
+    top: 21rem;
+    left: 11rem;
+}
+
+.square-list-sl {
+    display: flex;
+    align-items: center;
+    width: 51rem; 
+    height: 12rem; 
+    background-color: #FFFFFF;
+    position: relative; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    top: 7rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.decrement-button-sl {
+    font-size: 40px;
+    position: absolute;
+    position: fixed;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: -1.5rem;
+    top: 0rem;
+    border:2px solid Black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px !important;
+}
+
+.increment-button-sl {
+    font-size: 30px;
+    position: absolute;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: 1.5rem;
+    top: 0rem;
+    border:2px solid Black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px !important;
+    position: fixed;
+}
+
+.count-display-sl {
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    border-radius:  50px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.square-quantity-sl {
+    display: flex;
+    position: absolute;
+    left: 37rem !important;
+    top: 4rem !important;
+    width: 200px;
+    height: 70px;
+    background-color: #d9d9d95d;
+    border-radius: 20px;
+    align-items: center ; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.List-pic-sl {
+    position: relative; 
+    width: 200px; 
+    height: 140px; 
+    left: 2rem;
+}
+
+.List-text-sl {
+    position: absolute;
+    font-size: 30px;
+    font-family: "SF UI Display-Black", Helvetica;
+    font-weight: Bold;
+    left: 22rem;
+    top: 2rem;
+}
+
+.check-item-sl {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 25rem; 
+    height: 5rem; 
+    background-color: #FFE86E;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 43rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.check-item-sl:hover {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 25rem; 
+    height: 5rem; 
+    background-color: #686765;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 43rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background-color: #f5f3ec;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.no-item-check-item-sl {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 25rem; 
+    height: 5rem; 
+    background-color: #D9D9D9;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 43rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.add-item-full-sl {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 51rem; 
+    height: 5rem; 
+    background-color: #FFE86E; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 30rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.add-item-sl {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 25rem; 
+    height: 5rem; 
+    background-color: #FFE86E; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 17rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.add-item-sl:hover {
+    display: flex;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF UI Display", Helvetica;
+    font-weight: Thin;
+    width: 25rem; 
+    height: 5rem; 
+    background-color: #FFE86E; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    left: 17rem;
+    transform: translate(-50%, -50%); 
+    top: 73rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    background-color: #f5f3ec;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.In-store-text-sl {
+    position: absolute;
+    position: fixed;
+    font-size: 30px;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: 22rem;
+    top: 5.5rem;
+}
+
+.checkbox-sl .MuiSvgIcon-root{
+    position: relative;
+    height: 50px; 
+    width: 50px; 
+    left: 2rem;
+    color: #000000;
+}
+
+.all-checkbox-sl .MuiSvgIcon-root{
+    position: fixed;
+    position: absolute;
+    height: 50px; 
+    width: 50px; 
+    left: 7rem;
+    top: 15rem;
+    color: #000000;
+}
+
+.Add-shopping-icon-sl {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 48rem;
+    top: 4rem;
+    height: 35px; 
+    width: 35px; 
+    color:#000000;
+}
+
+.Out-of-stock-button-sl {
+    align-items: center;
+    position: absolute;
+    font-weight: Black;
+    left: 22rem;
+    bottom: 4rem;
+    color:  #000000 !important;
+    background-color: #D9D9D9 !important;
+}
+
+.Arrow-back-button-sl {
+    display: flex;
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+}
+
+.Container-sl {
+    background-color: #fdf78580;
+    border-radius: 20px;
+    height: 83px;
+    left: 69px;
+    position: absolute;
+    top: 235px;
+    width: 700px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.edit-icon-sl{
+    top: 13rem;
+    left: 800px;
+    position: fixed;
+}
+
+.delete-icon-sl{
+    top: 4.5rem;
+    left: 29rem;
+}
+
+.empty-list{
+    position: fixed;
+    position: absolute;
+    font-size: 30px;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: 38rem;
+    top: 19rem;
+}
+
+.quantity-button-sl{
+    width: 20px;
+    height: 20px;
+    top: -2rem;
+    left: 25rem;
+    position: absolute;
+    font-size: 115px;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    border-radius: 20px !important;
+    color:  #000000 !important;
+    background-color: #FFFFFF !important;
+}
+  
+
+.SearchInput-sl {
+    background-color: transparent;
+    height: 100%;
+    width: 713px;
+    margin-left: 110px;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+  
+::placeholder {
+    color: #000000;
+}
+  
+.SearchInput:focus {
+    outline: none;
+}
+  
+.SearchIcon-sl {
+    left: 30px;
+    position: absolute;
+    top: 15px;
+}
+
+.scrollable-container-sl {
+    max-height: 690px; /* Set the maximum height for the container */
+    max-width: 100%; /* Set the maximum width for the container */
+    overflow-y: scroll;  /* Enable vertical scrolling when the content exceeds the container's height */
+    overflow-x: hidden;
+    margin-top: 300px;
+}
+
+ /*.scrollable-container {
+    max-height: 300px; 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    border: 0px solid #ccc; 
+    margin-top: 200px;
+    padding: 10px;
+  }*/
+
+.popup-content-sl{
+    position: fixed;
+    width: 700px;
+    height: 650px;
+    top: 650px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    border-radius: 20px !important;
+}
+
+.popup-title-sl {
+    margin-top: 4rem;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup-description-sl {
+    top:30rem;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+}
+
+.popup-pic-sl {
+    margin-top: -0.5rem;
+    position: absolute; 
+    width: 400px; 
+    height: 280px; 
+    left: 10rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.cancel-button-sl {
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 20rem;
+    left: 6rem;
+    border-radius: 20px !important;
+}
+
+.confirm-button-sl{
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 20rem;
+    left: 8rem;
+    border-radius: 20px !important;
+    background-color: #000000;
+}
+
+.second-popup-content-sl {
+    position: fixed;
+    width: 700px;
+    height: 650px;
+    top: 650px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    justify-content: center;
+    border-radius: 30px ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.second-popup-title-sl{
+    margin-top: 3rem;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-cancel-button-sl {
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 3rem;
+    left: 6rem;
+    border-radius: 20px !important;
+}
+
+.second-confirm-button-sl {
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 3rem;
+    left: 8rem;
+    border-radius: 20px !important;
+    background-color: #000000;
+}
+
+.second-popup-description-sl {
+    top:30rem;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+}
+
+.scrollable-container-popup-sl {
+    position: fixed;
+    height: 300px; /* Set the maximum height for the container */
+    width: 500px; /* Set the maximum width for the container */
+    overflow-y: scroll;  /* Enable vertical scrolling when the content exceeds the container's height */
+    overflow-x: hidden;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+    border: 0px solid Black;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.complete-deleted-popup-content-sl {
+    position: fixed;
+    width: 700px;
+    height: 350px;
+    top: 650px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    background-color: #8dcd8d;
+    justify-content: center;
+    border-radius: 30px ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.complete-deleted-popup-title-sl {
+    margin-top: 2rem;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sucessfully-deleted-icon-sl {
+    margin-left: 300px;
+    margin-top: 3rem;
+}
+
+.done-deleted-button-sl {
+    position: absolute;
+    position: fixed;
+    width: 150px;
+    top: 0.5rem;
+    left: 17.5rem;
+    border-radius: 20px !important;
+    color: #FFFFFF;
+}
+
+.confirmed-checkout-popup-content-sl{
+    display: flex;
+    position: fixed;
+    width: 700px;
+    height: 820px;
+    top: 650px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    border-radius: 20px !important;
+    justify-content: center;
+}
+
+.small-sqaure-checkout-popup-content-sl{
+    display: flex;
+    position: absolute;
+    position: fixed;
+    width: 700px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.checkout-title-sl{
+    position: absolute;
+    position: fixed;
+    top: 3rem;
+    left: 5rem;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+}
+
+.square-checkout-quantity-sl{
+    display: flex;
+    position: absolute;
+    left: 16rem;
+    top: 50rem !important;
+    width: 200px;
+    height: 70px;
+    background-color: #d9d9d95d;
+    border-radius: 20px;
+    align-items: center ; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.checkout-quantity-text-sl{
+    position: absolute;
+    top: 5rem;
+    left: 3.75rem;
+    font-size: 20px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Thin;
+}
+
+.checkout-duration-sl{
+    position: absolute;
+    top: 33rem;
+    width: 2rem;
+    left: 22rem;
+}
+
+.checkout-duration-text-sl{
+    position: absolute;
+    top: 46.5rem;
+    left: 13rem;
+    font-size: 20px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Thin;
+}
+
+.checkout-duration-days-sl{
+    position: absolute;
+    top: 46.5rem;
+    left: 30rem;
+    font-size: 20px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Thin;
+}
+
+.selected-checkout-text-sl{
+    position: absolute;
+    font-size: 20px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Bold;
+    left: 8rem;
+    top: 9.25rem;
+}
+
+.square-selected-checkout-text-sl{
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    width: 40rem;
+    height: 3rem;
+    background-color: #000000;
+    border-radius: 10px ;
+}
+
+.scrollable-selected-checkout-sl{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    top: 13rem;
+    left: 2.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+.selected-checkout-list-sl {  
+    margin-top: 2rem;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+}
+
+.unselected-checkout-text-sl{
+    position: absolute;
+    font-size: 20px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Bold;
+    left: 30rem;
+    top: 9.25rem;
+}
+
+.square-unselected-checkout-text-sl{
+    position: absolute;
+    top: 28rem;
+    left: 2rem;
+    width: 40rem;
+    height: 3rem;
+    background-color: #a42e2e;
+    border-radius: 10px ;
+}
+
+.square-selected-checkout-sl{
+    position: absolute;
+    position: fixed;
+    width: 13rem;
+    height: 3rem;
+    background-color: #edc543f5;
+    border-radius: 20px;
+    top: 8.5rem;
+    left: 5.5rem;
+}
+
+.square-unselected-checkout-sl{
+    position: absolute;
+    position: fixed;
+    width: 13rem;
+    height: 3rem;
+    background-color: #edc543f5;
+    border-radius: 20px;
+    top: 8.5rem;
+    left: 26rem;
+}
+
+.square-unselected-checkout-text-sl{
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    width: 40rem;
+    height: 3rem;
+    background-color: #000000;
+    border-radius: 10px ;
+}
+
+.unselected-checkout-list-sl{
+    margin-top: 2rem;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+}
+
+.scrollable-unselected-checkout-sl{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    top: 13rem;
+    left: 23rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+.confirmed-checkout-cancel-button-sl{
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 47rem;
+    left: -1rem;
+    border-radius: 20px !important;
+}
+
+.confirmed-checkout-confirm-button-sl{
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 47rem;
+    left: 1rem;
+    border-radius: 20px !important;
+}
+
+.no-item-deleted-sl {
+    margin-top: 4.5rem;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+    color: 'red';
+}
+
+.box1-sl{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    top: 7rem;
+    left: 3.25rem;
+    border: 1px solid Black;
+}
+
+.box2-sl{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    top: 28rem;
+    left: 3.25rem;
+    border: 1px solid Black;
+}
+
+.checkout-modal-content-sl{
+    position: fixed;
+    width: 700px;
+    height: 1000px;
+    top: 650px;
+    left: 480px;
+    transform: translate(-50%, -50%);
+    background-color: #f3f0f0;
+    justify-content: center;
+    border-radius: 30px ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.checkout-popup-title-sl{
+    margin-top: 3rem;
+    font-size: 48px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Bold;
+    text-align: center;
+}
+
+.checkout-back-button-sl{
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 10rem !important;
+}
+
+.checkout-description-item-sl{
+    top: 6rem;
+    left: 20rem;
+    position: fixed;
+    font-size: 40px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+    text-align: center;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.checkout-pic-sl{
+    position: absolute; 
+    top: 13.5rem;
+    left: 10rem;
+    width: 400px; 
+    height: 280px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.square-quantity-sl{
+    display: flex;
+    position: absolute;
+    left: 16rem;
+    top: 33rem;
+    width: 200px;
+    height: 70px;
+    background-color: #d9d9d95d;
+    border-radius: 20px;
+    align-items: center ; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.count-display-sl{
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    border-radius:  50px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.decrement-button-sl{
+    font-size: 40px;
+    position: absolute;
+    position: fixed;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: -1.5rem;
+    top: 0rem;
+    border:2px solid Black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px !important;
+}
+
+.increment-button-sl{
+    font-size: 30px;
+    position: absolute;
+    font-family: "SF UI Display-Thin", Helvetica;
+    font-weight: Thin;
+    left: 1.5rem;
+    top: 0rem;
+    border:2px solid Black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px !important;
+    position: fixed;
+}
+
+.checkout-forth-button-sl{
+    position: absolute;
+    margin-top: 0.5rem !important;
+    margin-left: 20rem !important;
+}
+
+.checkout-cancel-button-sl{
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 42.5rem;
+    left: 6rem;
+    border-radius: 20px !important;
+}
+
+.checkout-confirm-button-sl{
+    position: absolute;
+    position: fixed;
+    width: 240px;
+    top: 42.5rem;
+    left: 9rem;
+    border-radius: 20px !important;
+    background-color: #000000;
+}
+
+.fridgeBody-sl{
+    width: 65%;
+    margin-left: 135px;
+    top: 16rem;
+    position: absolute;
+}
+
+.checkout-location-text-sl{
+    position: absolute;
+    top: 13rem;
+    left: 18.5rem;
+    font-size: 30px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: Regular;
+}
+
+.Container1-sl {
+    width: 80px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    position: absolute;
+    top: 18rem;
+    left : 16.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.Container2-sl {
+    width: 110px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    /* top: 0px; Remove this line */
+    position: absolute; /* Added this line */
+    top: 18rem;
+    left: 22rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container3-sl {
+    width: 80px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    position: absolute;
+    top: 22.5rem;
+    left : 16.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container4-sl {
+    width: 110px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    /* top: 0px; Remove this line */
+    position: absolute; /* Added this line */
+    top: 22.5rem;
+    left: 22rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container5-sl {
+    width: 80px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    position: absolute;
+    top: 27rem;
+    left : 16.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container6-sl {
+    width: 110px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    /* top: 0px; Remove this line */
+    position: absolute; /* Added this line */
+    top: 27rem;
+    left: 22rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container7-sl {
+    width: 80px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    position: absolute;
+    top: 31.5rem;
+    left : 16.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container8-sl {
+    width: 110px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    /* top: 0px; Remove this line */
+    position: absolute; /* Added this line */
+    top: 31.5rem;
+    left: 22rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container9-sl {
+    width: 80px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    position: absolute;
+    top: 36rem;
+    left : 16.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Container10-sl {
+    width: 110px;
+    height: 60px;
+    background-color: #8ebbe5;
+    border-radius: 5px;
+    /* top: 0px; Remove this line */
+    position: absolute; /* Added this line */
+    top: 36rem;
+    left: 22rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hover-effect-sl:hover {
+    background-color: #fdf885;
+}
+
+.selected {
+    background-color: #fdf885;
+}
+
+.container-number{
+    width: 1.5rem;
+    height: 1.2rem;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 1.2rem;
+    margin-left: -0.75rem !important;
+    font-size: 15px;
+    font-family: "SF UI Display-Bold", Helvetica;
+    font-weight: thin;
+}
+
+.back-button-sl {
+    position: fixed;
+    top: 3rem;
+    left: 7rem;
+    cursor: pointer;
+}
+
+.invalid-input {
+    color: red; /* Change text color to red for invalid input */
+}
+
+.CancelText-sl,
+.ConfirmText-sl {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-block-start: 15px;
+}
+
+.CancelBtn-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  left: 180px;
+  top: 570px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CancelBtn-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+  left: 180px;
+  top: 570px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.TakeOutBtn-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 370px;
+  top: 570px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.TakeOutBtn-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 370px;
+  top: 570px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.CancelBtn-select-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  left: 190px;
+  top: 740px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CancelBtn-select-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+  left: 190px;
+  top: 740px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.TakeOutBtn-select-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 370px;
+  top: 740px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.TakeOutBtn-select-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 370px;
+  top: 740px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.CancelBtn-checkout-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #c00c00;
+  border-radius: 20px;
+  left: 170px;
+  top: 930px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.CancelBtn-checkout-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7b0900;
+  border-radius: 20px;
+  left: 170px;
+  top: 930px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.TakeOutBtn-checkout-sl {
+  width: 150px;
+  height: 50px;
+  background-color: #24bd2a;
+  border-radius: 20px;
+  left: 400px;
+  top: 930px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.TakeOutBtn-checkout-sl.disable {
+    width: 150px;
+    height: 50px;
+    background-color: #DDD;
+    border-radius: 20px;
+    left: 400px;
+    top: 930px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+.TakeOutBtn-checkout-sl.disable:hover {
+    width: 150px;
+    height: 50px;
+    background-color: #DDD;
+    border-radius: 20px;
+    left: 400px;
+    top: 930px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+.TakeOutBtn-checkout-sl:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #198a1e;
+  border-radius: 20px;
+  left: 400px;
+  top: 930px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hide {
+    display: none;
+  }

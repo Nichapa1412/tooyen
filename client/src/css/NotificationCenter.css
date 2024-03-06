@@ -1,0 +1,105 @@
+/* Description : This is for decoration part of NotificationCenter.js*/
+
+.NotiBg {
+  width: 960px;
+  height: 1440px;
+  background-color: #ffffff;
+}
+
+.NotiBackBtn {
+  font-family: "SF UI Display-Medium", Helvetica;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 90px;
+  color: white;
+  position: absolute;
+}
+
+.NotificationCenterText {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 48px;
+  left: 180px;
+  top: 80px;
+  position: absolute;
+  color: white;
+}
+
+.BellImage {
+  width: 100px;
+  height: 100px;
+  margin-left: 630px;
+  margin-top: 70px;
+  transform: rotate(-20deg);
+}
+
+.NotiOrangeBox {
+  width: 960px;
+  height: 210px;
+  background-color: #e08600;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.NotificationBox {
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.NotiImage {
+  width: 170px;
+  height: 170px;
+  padding: 20px;
+}
+
+.NotificationName {
+  font-family: "SF UI Display", Helvetica;
+  font-size: 36px;
+  margin-block-start: 35px;
+  margin-inline-start: 10px;
+  margin-block-end: 0px;
+}
+
+.NotiDetail {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 23px;
+  margin-inline-start: 15px;
+  margin-top: 5px;
+}
+
+.NotiTime {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 23px;
+  text-align: right;
+  margin-top: 35px;
+  color: #a1a1a1;
+  margin-inline-end: 30px;
+  width: 110px;
+}
+
+.NotiDetailWrapper {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AllNotiBox {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.NoNoti {
+  font-family: "SF UI Display-Bold", Helvetica;
+  font-size: 30px;
+  color: rgb(111, 113, 115);
+  margin-top: 33px;
+  margin-left: 85px;
+  text-align: center;
+  width: 738px;
+}
